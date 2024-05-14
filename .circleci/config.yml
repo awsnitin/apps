@@ -43,7 +43,7 @@ jobs:
   test_extension:
     docker:
       - image: cimg/node:20.12
-    parallelism: 1
+    parallelism: 2
     steps:
       - checkout
       - restore_cache:
